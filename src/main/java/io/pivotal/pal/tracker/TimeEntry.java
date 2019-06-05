@@ -31,8 +31,6 @@ public class TimeEntry {
 
     }
 
-
-
     public Long getId() {
         return id;
     }
@@ -71,5 +69,25 @@ public class TimeEntry {
 
     public int getHours() {
         return hours;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setProjectId(long projectId) {
+        this.projectId = projectId;
+    }
+
+    public void setUserId(long userId) {
+        this.userId = userId;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
+    public void setHours(int hours) {
+        this.hours = hours;
     }
 }
